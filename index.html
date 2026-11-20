@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy | MindTiles: Sliding Puzzle</title>
+    <meta name="description" content="Official Privacy Policy for MindTiles: Sliding Puzzle Android game. Learn how we protect your privacy with 100% offline gameplay and zero data collection." />
+    <meta property="og:title" content="Privacy Policy | MindTiles: Sliding Puzzle" />
+    <meta property="og:description" content="Official Privacy Policy for MindTiles: Sliding Puzzle Android game. 100% offline, zero data collection." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    
+    <!-- Google Fonts & Tailwind CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      :root {
+        /* Brand */
+        --mt-primary: #F97316;
+        --mt-primary-hover: #EA580C;
+        --mt-primary-dark: #C84B0B;
+        --mt-accent: #FFB347;
+
+        /* Background */
+        --mt-bg: #FFFCF7;
+        --mt-surface: #FFF5E6;
+        --mt-surface-hover: #FCE9CB;
+        --mt-border: #F5D9AE;
+
+        /* Typography */
+        --mt-heading: #321707;
+        --mt-text: #56321D;
+        --mt-muted: #80664F;
+
+        /* Semantic */
+        --mt-success: #16865B;
+        --mt-success-bg: #E8F6ED;
+
+        /* Shape */
+        --mt-radius-sm: 10px;
+        --mt-radius-md: 16px;
+        --mt-radius-lg: 20px;
+
+        /* Shadow */
+        --mt-shadow: 0 6px 20px rgba(120, 65, 20, .07);
+      }
+
+      body {
+        font-family: 'Nunito Sans', sans-serif;
+        background: var(--mt-bg);
+        color: var(--mt-text);
+        line-height: 1.75;
+      }
+
+      h1, h2, h3 {
+        color: var(--mt-heading);
+        font-weight: 800;
+        line-height: 1.25;
+      }
+
+      h1 {
+        font-size: clamp(28px, 4vw, 36px);
+        letter-spacing: -1px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+
+      a {
+        color: var(--mt-primary-dark);
+      }
+
+      button {
+        background: var(--mt-primary);
+        color: white;
+        border: 0;
+        border-radius: 12px;
+        padding: 11px 18px;
+        font-family: inherit;
+        font-weight: 800;
+        cursor: pointer;
+        transition: background 0.15s ease;
+      }
+
+      button:hover {
+        background: var(--mt-primary-hover);
+      }
+
+      .privacy-card {
+        background: var(--mt-surface);
+        border: 1px solid var(--mt-border);
+        border-radius: var(--mt-radius-lg);
+        padding: 24px;
+        box-shadow: var(--mt-shadow);
+      }
+
+      .section-number {
+        width: 30px;
+        height: 30px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 9px;
+        background: var(--mt-surface-hover);
+        color: var(--mt-primary-dark);
+        font-weight: 900;
+      }
+
+      .privacy-section {
+        padding: 28px 0;
+        border-bottom: 1px solid #F1DFC5;
+      }
+
+      .privacy-section:last-child {
+        border-bottom: none;
+      }
+
+      .privacy-badge {
+        display: inline-flex;
+        align-items: center;
+        background: var(--mt-success-bg);
+        color: var(--mt-success);
+        border-radius: 100px;
+        padding: 5px 12px;
+        font-size: 12px;
+        font-weight: 800;
+      }
+
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 28px;
+        }
+
+        .privacy-card {
+          padding: 18px;
+        }
+
+        .privacy-section {
+          padding: 22px 0;
+        }
+      }
+
+      @media print {
+        body {
+          background: white;
+          color: black;
+        }
+        .print\:hidden {
+          display: none !important;
+        }
+      }
+    </style>
+  </head>
+  <body class="min-h-screen antialiased selection:bg-orange-100 selection:text-orange-900">
+
+    <!-- Main Container - Centered Single Column max-w-[720px] -->
+    <main class="max-w-[720px] mx-auto px-6 sm:px-8 pt-8 pb-20">
+      
+      <!-- Banner Image -->
+      <div class="mb-8 rounded-2xl overflow-hidden shadow-md border border-[#F5D9AE] bg-white">
+        <img 
+          src="./assets/MindTiles-1024x500.jpg" 
+          alt="MindTiles: Sliding Puzzle Banner" 
+          class="w-full h-auto object-cover aspect-[1024/500]"
+        />
+      </div>
+
+      <!-- App Header Badge & Title Section -->
+      <header class="mb-10 pb-8 border-b border-[#F5D9AE]">
+        <div class="flex items-center gap-3 mb-4">
+          <img 
+            src="./assets/Icone-MindTiles-colored.png" 
+            alt="MindTiles Icon" 
+            class="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl shadow-lg object-cover" 
+          />
+          <div>
+            <div class="privacy-badge mb-1">
+              <svg class="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path></svg>
+              Android Game Privacy Policy
+            </div>
+            <h2 class="text-sm font-semibold text-[#80664F]">MindTiles: Sliding Puzzle</h2>
+          </div>
+        </div>
+
+        <h1 class="mb-4">
+          Privacy Policy for MindTiles: Sliding Puzzle
+        </h1>
+
+        <div class="flex flex-wrap items-center justify-between gap-3 text-sm text-[#80664F] pt-2">
+          <div class="flex items-center gap-2">
+            <span class="font-semibold text-[#56321D]">Effective Date:</span>
+            <time datetime="2026-11-19" class="bg-[#FFF5E6] border border-[#F5D9AE] px-2.5 py-0.5 rounded-lg text-[#321707] font-bold text-xs">
+              November 19, 2026
+            </time>
+          </div>
+          <div class="privacy-badge">
+            <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+            <span>100% Offline & Private</span>
+          </div>
+        </div>
+      </header>
+
+      <!-- Quick Summary Box -->
+      <section class="mb-10 privacy-card">
+        <h3 class="text-lg font-extrabold text-[#321707] mb-2 flex items-center gap-2">
+          <svg class="w-5 h-5 text-[#F97316]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+          At a Glance
+        </h3>
+        <p class="leading-relaxed text-[#56321D] text-sm sm:text-base">
+          MindTiles: Sliding Puzzle is built with your privacy in mind. We collect <strong class="text-[#321707] font-extrabold">zero personal data</strong>, require <strong class="text-[#321707] font-extrabold">no account registration</strong>, and operate <strong class="text-[#321707] font-extrabold">entirely offline</strong> without tracking or ads.
+        </p>
+      </section>
+
+      <!-- Policy Content Sections -->
+      <div class="space-y-2">
+        
+        <!-- Section 1 -->
+        <section id="overview" class="privacy-section">
+          <h2 class="flex items-center gap-3 mb-3">
+            <span class="section-number">1</span>
+            <span>Overview</span>
+          </h2>
+          <p class="pl-[42px] text-[#56321D]">
+            MindTiles: Sliding Puzzle is an offline sliding tile puzzle game designed for entertainment. We respect your privacy and are committed to protecting it.
+          </p>
+        </section>
+
+        <!-- Section 2 -->
+        <section id="data-collection" class="privacy-section">
+          <h2 class="flex items-center gap-3 mb-3">
+            <span class="section-number">2</span>
+            <span>Data Collection and Usage</span>
+          </h2>
+          <p class="pl-[42px] text-[#56321D] mb-4">
+            MindTiles: Sliding Puzzle does not collect, store, transmit, or share any personal or non-personal user data. Specifically:
+          </p>
+          <ul class="space-y-3 pl-[42px] text-[#56321D]">
+            <li class="flex items-start gap-3">
+              <span class="w-2 h-2 rounded-full bg-[#F97316] mt-2.5 shrink-0"></span>
+              <span><strong class="text-[#321707] font-bold">No account creation</strong>, registration, or user login is required.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="w-2 h-2 rounded-full bg-[#F97316] mt-2.5 shrink-0"></span>
+              <span><strong class="text-[#321707] font-bold">No analytics</strong>, tracking SDKs, or third-party advertising networks are integrated into the application.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="w-2 h-2 rounded-full bg-[#F97316] mt-2.5 shrink-0"></span>
+              <span>All game progress, settings, and high scores are <strong class="text-[#321707] font-bold">stored locally on your device only</strong>.</span>
+            </li>
+          </ul>
+        </section>
+
+        <!-- Section 3 -->
+        <section id="third-party" class="privacy-section">
+          <h2 class="flex items-center gap-3 mb-3">
+            <span class="section-number">3</span>
+            <span>Third-Party Services</span>
+          </h2>
+          <p class="pl-[42px] text-[#56321D]">
+            The application operates 100% offline and does not transmit or share any information with third parties.
+          </p>
+        </section>
+
+        <!-- Section 4 -->
+        <section id="children" class="privacy-section">
+          <h2 class="flex items-center gap-3 mb-3">
+            <span class="section-number">4</span>
+            <span>Children&apos;s Privacy</span>
+          </h2>
+          <p class="pl-[42px] text-[#56321D]">
+            Because we do not collect any data whatsoever, we do not knowingly collect personal information from children under the age of 13 or any other users.
+          </p>
+        </section>
+
+        <!-- Section 5 -->
+        <section id="contact" class="privacy-section">
+          <h2 class="flex items-center gap-3 mb-3">
+            <span class="section-number">5</span>
+            <span>Contact Us</span>
+          </h2>
+          <p class="pl-[42px] text-[#56321D] mb-4">
+            If you have any questions or concerns about this Privacy Policy, please contact us at:
+          </p>
+          <div class="pl-[42px]">
+            <div class="privacy-card flex flex-wrap items-center justify-between gap-4 p-4">
+              <div class="flex items-center gap-3">
+                <div class="p-2.5 rounded-xl bg-[#FCE9CB] text-[#C84B0B]">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                </div>
+                <div>
+                  <span class="text-xs text-[#80664F] block font-bold uppercase tracking-wider">Support Email</span>
+                  <a 
+                    href="mailto:ayoussef.pyxicom@gmail.com"
+                    class="text-[#C84B0B] font-extrabold hover:underline text-sm sm:text-base"
+                  >
+                    ayoussef.pyxicom@gmail.com
+                  </a>
+                </div>
+              </div>
+              <button
+                id="copy-btn"
+                onclick="copyEmail()"
+                style="padding: 8px 16px; font-size: 13px;"
+                class="flex items-center gap-1.5 shadow-2xs cursor-pointer"
+              >
+                <span id="copy-text">Copy Email</span>
+              </button>
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+      <!-- Footer -->
+      <footer class="mt-16 pt-8 border-t border-[#F5D9AE] text-center text-xs text-[#80664F] space-y-4">
+        <button
+          id="print-btn"
+          onclick="printPDF()"
+          style="padding: 8px 16px; font-size: 12px;"
+          class="print:hidden mx-auto inline-flex items-center gap-1.5 transition-all shadow-2xs hover:opacity-95 cursor-pointer"
+          title="Print or Save as PDF"
+        >
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"></path></svg>
+          <span id="print-text">Print / Save PDF</span>
+        </button>
+        <p class="font-bold text-[#321707]">&copy; 2026 MindTiles: Sliding Puzzle. All rights reserved.</p>
+        <p>Designed for a secure, offline, and private gaming experience.</p>
+      </footer>
+
+    </main>
+
+    <script>
+      function copyEmail() {
+        const email = 'ayoussef.pyxicom@gmail.com';
+        navigator.clipboard.writeText(email).then(() => {
+          const btnText = document.getElementById('copy-text');
+          btnText.textContent = 'Copied!';
+          setTimeout(() => {
+            btnText.textContent = 'Copy Email';
+          }, 2500);
+        });
+      }
+
+      function printPDF() {
+        const printBtnText = document.getElementById('print-text');
+        printBtnText.textContent = 'Preparing PDF...';
+        setTimeout(() => {
+          window.print();
+          printBtnText.textContent = 'Print / Save PDF';
+        }, 300);
+      }
+    </script>
+  </body>
+</html>
